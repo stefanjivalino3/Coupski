@@ -17,6 +17,10 @@
 		0BD4947C2A8689EE0023107A /* CoupskiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD4947B2A8689EE0023107A /* CoupskiTests.swift */; };
 		0BD494862A8689EE0023107A /* CoupskiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD494852A8689EE0023107A /* CoupskiUITests.swift */; };
 		0BD494882A8689EE0023107A /* CoupskiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD494872A8689EE0023107A /* CoupskiUITestsLaunchTests.swift */; };
+		0BD494972A868F7D0023107A /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD494962A868F7D0023107A /* BaseNavigationController.swift */; };
+		2878BFC608E273D5C76759B7 /* Pods_Coupski_CoupskiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB3FF963B57ACB0E2F761B3A /* Pods_Coupski_CoupskiUITests.framework */; };
+		3CD072E6B400F0808D896174 /* Pods_CoupskiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE578CDCFBB34A061A1AA0FD /* Pods_CoupskiTests.framework */; };
+		77F596977B2F47D03A991A74 /* Pods_Coupski.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE567BA05625B9214AFDB4CA /* Pods_Coupski.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C6C3CCAFC6AE4B48150D3F /* Pods-Coupski-CoupskiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coupski-CoupskiUITests.release.xcconfig"; path = "Target Support Files/Pods-Coupski-CoupskiUITests/Pods-Coupski-CoupskiUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0BD4945E2A8689ED0023107A /* Coupski.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coupski.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD494612A8689ED0023107A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BD494632A8689ED0023107A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		0BD494812A8689EE0023107A /* CoupskiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoupskiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BD494852A8689EE0023107A /* CoupskiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupskiUITests.swift; sourceTree = "<group>"; };
 		0BD494872A8689EE0023107A /* CoupskiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoupskiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0BD494962A868F7D0023107A /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		31C88D42A6486A94D1A31AD6 /* Pods-Coupski-CoupskiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coupski-CoupskiUITests.debug.xcconfig"; path = "Target Support Files/Pods-Coupski-CoupskiUITests/Pods-Coupski-CoupskiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		737BAD3BB330D92F99063543 /* Pods-Coupski.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coupski.release.xcconfig"; path = "Target Support Files/Pods-Coupski/Pods-Coupski.release.xcconfig"; sourceTree = "<group>"; };
+		99F09F2A6AA3D0B750D94C3F /* Pods-Coupski.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Coupski.debug.xcconfig"; path = "Target Support Files/Pods-Coupski/Pods-Coupski.debug.xcconfig"; sourceTree = "<group>"; };
+		AE578CDCFBB34A061A1AA0FD /* Pods_CoupskiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CoupskiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD2B81CC6C90652A5C65F02 /* Pods-CoupskiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoupskiTests.debug.xcconfig"; path = "Target Support Files/Pods-CoupskiTests/Pods-CoupskiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8D1F589EC3B8218EB7A03D0 /* Pods-CoupskiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoupskiTests.release.xcconfig"; path = "Target Support Files/Pods-CoupskiTests/Pods-CoupskiTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB3FF963B57ACB0E2F761B3A /* Pods_Coupski_CoupskiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coupski_CoupskiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE567BA05625B9214AFDB4CA /* Pods_Coupski.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Coupski.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77F596977B2F47D03A991A74 /* Pods_Coupski.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CD072E6B400F0808D896174 /* Pods_CoupskiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2878BFC608E273D5C76759B7 /* Pods_Coupski_CoupskiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +102,8 @@
 				0BD4947A2A8689EE0023107A /* CoupskiTests */,
 				0BD494842A8689EE0023107A /* CoupskiUITests */,
 				0BD4945F2A8689ED0023107A /* Products */,
+				CAB7B8C1FFC06384220FF96C /* Pods */,
+				1922D017F9286F81E51836E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +120,7 @@
 		0BD494602A8689ED0023107A /* Coupski */ = {
 			isa = PBXGroup;
 			children = (
+				0BD494942A868F5E0023107A /* Helpers */,
 				0BD494612A8689ED0023107A /* AppDelegate.swift */,
 				0BD494632A8689ED0023107A /* SceneDelegate.swift */,
 				0BD494652A8689ED0023107A /* ViewController.swift */,
@@ -130,6 +150,45 @@
 			path = CoupskiUITests;
 			sourceTree = "<group>";
 		};
+		0BD494942A868F5E0023107A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0BD494952A868F660023107A /* Extension */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0BD494952A868F660023107A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0BD494962A868F7D0023107A /* BaseNavigationController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1922D017F9286F81E51836E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE567BA05625B9214AFDB4CA /* Pods_Coupski.framework */,
+				EB3FF963B57ACB0E2F761B3A /* Pods_Coupski_CoupskiUITests.framework */,
+				AE578CDCFBB34A061A1AA0FD /* Pods_CoupskiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CAB7B8C1FFC06384220FF96C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99F09F2A6AA3D0B750D94C3F /* Pods-Coupski.debug.xcconfig */,
+				737BAD3BB330D92F99063543 /* Pods-Coupski.release.xcconfig */,
+				31C88D42A6486A94D1A31AD6 /* Pods-Coupski-CoupskiUITests.debug.xcconfig */,
+				00C6C3CCAFC6AE4B48150D3F /* Pods-Coupski-CoupskiUITests.release.xcconfig */,
+				BCD2B81CC6C90652A5C65F02 /* Pods-CoupskiTests.debug.xcconfig */,
+				C8D1F589EC3B8218EB7A03D0 /* Pods-CoupskiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BD4948B2A8689EE0023107A /* Build configuration list for PBXNativeTarget "Coupski" */;
 			buildPhases = (
+				FC2F550D9E39D74325C93091 /* [CP] Check Pods Manifest.lock */,
 				0BD4945A2A8689ED0023107A /* Sources */,
 				0BD4945B2A8689ED0023107A /* Frameworks */,
 				0BD4945C2A8689ED0023107A /* Resources */,
@@ -154,6 +214,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BD4948E2A8689EE0023107A /* Build configuration list for PBXNativeTarget "CoupskiTests" */;
 			buildPhases = (
+				3BCB85AA47EA2D1C131EDC09 /* [CP] Check Pods Manifest.lock */,
 				0BD494732A8689EE0023107A /* Sources */,
 				0BD494742A8689EE0023107A /* Frameworks */,
 				0BD494752A8689EE0023107A /* Resources */,
@@ -172,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BD494912A8689EE0023107A /* Build configuration list for PBXNativeTarget "CoupskiUITests" */;
 			buildPhases = (
+				C6C9F898B008CEC615DEB7FC /* [CP] Check Pods Manifest.lock */,
 				0BD4947D2A8689EE0023107A /* Sources */,
 				0BD4947E2A8689EE0023107A /* Frameworks */,
 				0BD4947F2A8689EE0023107A /* Resources */,
@@ -256,6 +318,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3BCB85AA47EA2D1C131EDC09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CoupskiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6C9F898B008CEC615DEB7FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coupski-CoupskiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC2F550D9E39D74325C93091 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Coupski-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BD4945A2A8689ED0023107A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +395,7 @@
 				0BD494662A8689ED0023107A /* ViewController.swift in Sources */,
 				0BD494622A8689ED0023107A /* AppDelegate.swift in Sources */,
 				0BD4946C2A8689ED0023107A /* Coupski.xcdatamodeld in Sources */,
+				0BD494972A868F7D0023107A /* BaseNavigationController.swift in Sources */,
 				0BD494642A8689ED0023107A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +568,7 @@
 		};
 		0BD4948C2A8689EE0023107A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F09F2A6AA3D0B750D94C3F /* Pods-Coupski.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +597,7 @@
 		};
 		0BD4948D2A8689EE0023107A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737BAD3BB330D92F99063543 /* Pods-Coupski.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +626,7 @@
 		};
 		0BD4948F2A8689EE0023107A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCD2B81CC6C90652A5C65F02 /* Pods-CoupskiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +647,7 @@
 		};
 		0BD494902A8689EE0023107A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8D1F589EC3B8218EB7A03D0 /* Pods-CoupskiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +668,7 @@
 		};
 		0BD494922A8689EE0023107A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C88D42A6486A94D1A31AD6 /* Pods-Coupski-CoupskiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +687,7 @@
 		};
 		0BD494932A8689EE0023107A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00C6C3CCAFC6AE4B48150D3F /* Pods-Coupski-CoupskiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
