@@ -6,6 +6,7 @@ target 'Coupski' do
   use_frameworks!
 
   # Pods for Coupski
+  pod 'Moya'
 
   target 'CoupskiTests' do
     inherit! :search_paths
